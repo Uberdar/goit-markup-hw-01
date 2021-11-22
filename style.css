@@ -131,8 +131,12 @@ align-items: center;
     display: flex;
     padding-bottom: 94px;
 }
+.team_unit {
+    background: white;
+    box-shadow: 0px 1px 2px 0px #00000021;
+}
 .team_unit:nth-child(-n+3){
-    padding-right: 30px;
+    margin-right: 30px;
 }
 .team_unit img{
     width: 270px;
