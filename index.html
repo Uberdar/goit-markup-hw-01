@@ -10,113 +10,118 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
     <title>Студия</title>
   </head>
   <body>
     <header>
       <nav class="nav">
-        <a href="#" class="logo"
-          ><img src="./images/logopic.png" alt="logo"
-        /></a>
+        <a href="./index.html" class="logo">WebStudio</a>
         <ul class="nav_list">
           <li class="list_unit"><a href="#">Студия</a></li>
           <li class="list_unit"><a href="#">Портфолио</a></li>
           <li class="list_unit"><a href="#">Контакты</a></li>
         </ul>
       </nav>
-      <div class="header_contacts">
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      </div>
+      <ul class="header_contacts">
+        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      </ul>
     </header>
 
     <main>
-      <div class="business_solutions">
-        <h1 class="main_header">Эффективные решения<br />для вашего бизнеса</h1>
+      <section class="business_solutions">
+        <h1 class="main_header">Эффуктивные решения<br />для вашего бизнеса</h1>
         <button class="main_button">Заказать услугу</button>
-      </div>
-      <div class="ocupation">
+      </section>
+
+      <section class="ocupation">
+        <h2>Род занятий</h2>
         <div class="ocupation_text">
           <ul>
-            <li><h3>внимание к деталям</h3></li>
             <li>
-              Идейные соображения, а также<br />начало повседневной работы по
-              формированию позиции.
+              <h3>внимание к деталям</h3>
+              <p>
+                Идейные соображения, а также<br />начало повседневной работы по
+                формированию позиции.
+              </p>
             </li>
-          </ul>
-          <ul>
-            <li><h3>пунктуальность</h3></li>
             <li>
-              Задача организации, в особенности<br />же рамки и место обучения
-              кадров влечет за собой.
+              <h3>пунктуальность</h3>
+              <p>
+                Задача организации, в особенности<br />же рамки и место обучения
+                кадров влечет за собой.
+              </p>
             </li>
-          </ul>
-          <ul>
-            <li><h3>плaнирование</h3></li>
             <li>
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
+              <h3>плaнирование</h3>
+              <p>
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
             </li>
-          </ul>
-          <ul>
-            <li><h3>современные технологии</h3></li>
             <li>
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
+              <h3>современные технологии</h3>
+              <p>
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
             </li>
           </ul>
         </div>
         <div class="ocupation_pics">
           <h2>Чем мы занимаемся</h2>
-          <div class="ocupation_pics-block">
-            <img src="./images/boxone.jpg" alt="working process" />
-            <img src="./images/boxtwo.jpg" alt="working process" />
-            <img src="./images/boxthree.jpg" alt="working process" />
-          </div>
+          <ul class="ocupation_pics-block">
+            <li>
+              <img src="/images/boxone.jpg" alt="working process" width="370" />
+            </li>
+            <li>
+              <img src="/images/boxtwo.jpg" alt="working process" width="370" />
+            </li>
+            <li>
+              <img
+                src="/images/boxthree.jpg"
+                alt="working process"
+                width="370"
+              />
+            </li>
+          </ul>
         </div>
-      </div>
-      <div class="team">
+      </section>
+
+      <section class="team">
         <h2>Наша команда</h2>
-        <div class="team_block">
-          <div class="team_unit">
-            <img src="./images/unitone.jpg" alt="worker" />
-            <ul class="unit_info">
-              <li class="unit_name">Игорь Демьяненко</li>
-              <li class="unit_position">Product Designer</li>
-            </ul>
-          </div>
-          <div class="team_unit">
-            <img src="./images/unittwo.jpg" alt="worker" />
-            <ul class="unit_info">
-              <li class="unit_name">Ольга Репина</li>
-              <li class="unit_position">Frontend Developer</li>
-            </ul>
-          </div>
-          <div class="team_unit">
-            <img src="./images/unitthree.jpg" alt="worker" />
-            <ul class="unit_info">
-              <li class="unit_name">Николай Тарасов</li>
-              <li class="unit_position">Marketing</li>
-            </ul>
-          </div>
-          <div class="team_unit">
-            <img src="./images/unitfour.jpg" alt="worker" />
-            <ul class="unit_info">
-              <li class="unit_name">Михаил Ермаков</li>
-              <li class="unit_position">UI Designer</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+        <ul>
+          <li>
+            <img src="./images/unitone.jpg" alt="worker" width="270" />
+            <h3>Игорь Демьяненко</h3>
+            <p>Product Designer</p>
+          </li>
+          <li>
+            <img src="./images/unittwo.jpg" alt="worker" width="270" />
+            <h3>Ольга Репина</h3>
+            <p>Frontend Developer</p>
+          </li>
+          <li>
+            <img src="./images/unitthree.jpg" alt="worker" width="270" />
+            <h3>Николай Тарасов</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/unitfour.jpg" alt="worker" width="270" />
+            <h3>Михаил Ермаков</h3>
+            <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer>
-      <a href="#" class="logo"><img src="./images/logopic.png" alt="logo" /></a>
+      <a href="./index.html" class="logo">WebStudio</a>
       <address>г. Киев, пр-т Леси Украинки, 26</address>
-      <a href="tel:+380961111111">+38 096 111 11 11</a>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul>
+        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      </ul>
     </footer>
   </body>
 </html>
